@@ -1,0 +1,64 @@
+For the Maven Northwind Challenge, you'll be working as a BI Developer forNorthwind Traders, a global import and export company that specializes 
+in supplying high-quality gourmet food products to restaurants, cafes, and specialty food retailers around the world.
+
+As part of your role, you've been tasked with building a top-level KPI dashboard for the executive team. 
+Its purpose should be to allow them to quickly understand the company's performance in key areas, including:
+
+Sales trends
+Product performance
+Key customers
+Shipping costs
+The dashboard should be built to evolve and accommodate new data over time, but you've been encouraged by your 
+manager to have insights & recommendations ready to share with the VPs. This is your chance to impress!
+
+the tables column descriptions:
+1)orders.csv--
+orderID		:Unique identifier for each order
+customerID	:The customer who placed the order
+employeeID	:The employee who processed the order
+orderDate	:The date when the order was placed
+requiredDate	:The date when the customer requested the order to be delivered
+shippedDate	:The date when the order was shipped
+shipperID	:The ID of the shipping company used for the order
+freight		:The shipping cost for the order (USD)
+
+2)order_details.csv--
+orderID		:The ID of the order this detail belongs to
+productID	:The ID of the product being ordered
+unitPrice	:The price per unit of the product at the time the order was placed (USD - discount not included)
+quantity	:The number of units being ordered
+discount	:The discount percentage applied to the price per unit
+
+3)customers.csv--
+customerID	:Unique identifier for each customer
+companyName	:The name of the customer's company
+contactName	:The name of the primary contact for the customer
+contactTitle	:The job title of the primary contact for the customer
+city		:The city where the customer is located
+country		:The country where the customer is located
+
+4)products.csv--
+productID	:Unique identifier for each product
+productName	:The name of the product
+quantityPerUnit	:The quantity of the product per package
+unitPrice	:The current price per unit of the product (USD)
+discontinued	:Indicates with a 1 if the product has been discontinued
+categoryID	:The ID of the category the product belongs to
+
+5)categories.csv--
+categoryID	:Unique identifier for each product category
+categoryName	:The name of the category
+description	:A description of the category and its products
+
+6)employees.csv--
+employeeID	:Unique identifier for each employee
+employeeName	:Full name of the employee
+title		:The employee's job title
+city		:The city where the employee works
+country		:The country where the employee works
+reportsTo	:The ID of the employee's manager
+
+7)shippers.csv--
+shipperID	:Unique identifier for each shipper
+companyName	:The name of the company that provides shipping services
+
