@@ -6,7 +6,7 @@ Northwind Trader is a global import and export company that specializes in suppl
 ### 📅 Sales Trends: 
 ✅ Total orders placed: 830 
 ✅ Total sales: $1.35 million.
-✅ Yearly Growth: 53%
+✅ Yearly Growth: 57.6%
 ✅ Average order Value: $1.6K
 
 ### 🌍 The best-performing regions: 
